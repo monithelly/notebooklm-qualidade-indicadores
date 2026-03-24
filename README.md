@@ -1,122 +1,118 @@
-Este projeto foi desenvolvido como parte do bootcamp **"Bradesco - GenAI & Dados"** promovido pela DIO.me, com foco na aplicação de Inteligência Artificial como ferramenta de aprendizagem e análise.
-
 # IA aplicada à análise de indicadores de qualidade
 
+> Projeto desenvolvido utilizando NotebookLM para estudo e aplicação de conceitos de qualidade com apoio de IA.
+
+Este projeto foi desenvolvido como parte do bootcamp **"Bradesco - GenAI & Dados"** da DIO.me, com foco no uso de Inteligência Artificial como apoio no processo de aprendizagem e análise.
+
 ## 📌 Contexto
-Este projeto foi desenvolvido como um caderno temático no NotebookLM com foco na análise de indicadores de qualidade. O estudo foi construído a partir de fontes abertas sobre os principais autores da qualidade, com destaque para Deming, Juran e Ishikawa.
+
+A análise de indicadores de qualidade é essencial para entender o que está acontecendo dentro de um processo e apoiar a tomada de decisão.
+
+Neste projeto, usei o NotebookLM como apoio para estudar e organizar conteúdos sobre qualidade, com base nos principais autores da área, como Deming, Juran e Ishikawa.
 
 ## 🎯 Objetivo
-O objetivo deste projeto é compreender como os fundamentos clássicos da gestão da qualidade podem apoiar a interpretação de indicadores, a identificação de causas de problemas e a propostas de melhorias com apoio da Inteligência Artificial.
+
+O objetivo foi entender, na prática, como os conceitos da gestão da qualidade podem ajudar na análise de indicadores, identificação de problemas e definição de melhorias, utilizando IA como suporte.
 
 ## 📚 Fontes utilizadas
+
 - Out of the Crisis – W. Edwards Deming  
 - Juran Trilogy – Joseph Juran  
 - Material sobre Diagrama de Ishikawa  
-- Conteúdos complementares obtidos via pesquisa assistida no NotebookLM (artigos e referências sobre indicadores de desempenho e gestão da qualidade)
+- Conteúdos complementares obtidos via pesquisa rápida no NotebookLM (artigos e referências sobre indicadores de desempenho e gestão da qualidade)
 
 ## 🧠 Temas estudados no NotebookLM
-- Conceitos de Deming
-- Trilogia de Juran
-- Diagrama de Ishikawa e os 6Ms
-- Causas comuns e causas especiais
-- Interpretação de KPI sob a ótica da qualidade
-- Simulação de análise de indicador de qualidade
+
+- Conceitos de Deming  
+- Trilogia de Juran  
+- Diagrama de Ishikawa e os 6Ms  
+- Causas comuns e causas especiais  
+- Interpretação de KPI sob a ótica da qualidade  
+- Simulação prática de análise de indicadores de qualidade  
 
 ## 🤖 Engenharia de Prompts e Aprendizados
 
-Durante o desenvolvimento do projeto, foram realizados testes com diferentes tipos de prompts no NotebookLM, permitindo avaliar como a qualidade das perguntas influencia diretamente a profundidade das respostas.
+Durante o uso do NotebookLM, fui testando diferentes formas de perguntar e percebi como isso impacta diretamente na qualidade das respostas.
 
 ### 🔹 Prompt inicial
 "Explique qualidade"
 
-➡️ Resultado:
-Resposta genérica e pouco aplicável ao contexto de indicadores.
-
+➡️ Resultado: resposta muito genérica, sem conexão com o contexto.
 
 ### 🔹 Prompt refinado
 "Explique como um especialista em qualidade analisaria um indicador usando os conceitos de Deming e Juran"
 
-➡️ Resultado:
-Resposta mais estruturada, com conexão entre teoria e prática.
-
+➡️ Resultado: resposta mais completa, conectando teoria com aplicação prática.
 
 ### 🔹 Aprendizados
-- Quanto mais específico o prompt, melhor e mais útil foi a resposta  
-- Percebi que combinar conceitos de diferentes autores deixou a análise mais completa  
-- A IA responde muito melhor quando eu dou mais contexto e direcionamento  
 
-- ## ⚠️ Desafios e aprendizados ao longo do processo
+- Quanto mais específico o prompt, melhor foi a resposta  
+- Misturar conceitos de diferentes autores deixou a análise mais completa  
+- A IA funciona muito melhor quando eu dou mais contexto  
 
-- No início, percebi que perguntas muito genéricas geravam respostas superficiais  
-- Tive que ajustar os prompts várias vezes até conseguir respostas mais úteis e aplicáveis  
-- Em alguns momentos, precisei interpretar melhor as respostas da IA para conseguir conectar com situações práticas  
-- O uso da pesquisa assistida ajudou bastante, mas também exigiu um olhar crítico para validar as informações
+## ⚠️ Desafios e aprendizados ao longo do processo
 
-- ## 📘 Miniguia de Estudo
+- No começo, usei prompts muito genéricos e as respostas não ajudavam tanto  
+- Precisei testar e ajustar bastante até chegar em perguntas mais úteis  
+- Em alguns momentos, tive que interpretar melhor as respostas pra conseguir aplicar na prática  
+- A pesquisa assistida ajudou, mas também exigiu atenção pra validar as informações  
+
+## 📘 Miniguia de Estudo
 
 ### 📖 Fundamentos da Qualidade
 
-A gestão da qualidade evoluiu ao longo do tempo, deixando de ser apenas inspeção de produtos para se tornar uma abordagem estratégica dentro das organizações.
+A qualidade deixou de ser só inspeção e passou a ser algo estratégico dentro das organizações.
 
-- **Deming**: trouxe a ideia de melhoria contínua, constância de propósito e a importância de entender a variação dos processos  
-- **Juran**: estruturou a gestão da qualidade em três pilares — planejamento, controle e melhoria  
-- **Ishikawa**: contribuiu com ferramentas práticas, como o Diagrama de Causa e Efeito, facilitando a identificação de problemas  
-
+- **Deming**: foco em melhoria contínua e entendimento da variação dos processos  
+- **Juran**: planejamento, controle e melhoria da qualidade  
+- **Ishikawa**: uso de ferramentas práticas para identificar causas de problemas  
 
 ### 📊 Indicadores de Qualidade
 
-Os indicadores de desempenho (KPIs) são essenciais para acompanhar a saúde dos processos e apoiar a tomada de decisão.
+Os KPIs ajudam a acompanhar o desempenho dos processos, mas não devem ser analisados só como números.
 
-- Devem ter **definições claras** para evitar interpretações erradas  
-- Precisam estar conectados aos objetivos da organização  
-- Não devem ser analisados apenas como números, mas como reflexo dos processos  
-
+- Precisam ter definição clara  
+- Devem estar ligados aos objetivos da empresa  
+- Servem como base para tomada de decisão  
 
 ### 🧠 Como interpretar indicadores na prática
 
-A análise de indicadores vai além de observar resultados. É necessário entender o que está por trás dos números.
+Analisar um indicador não é só olhar o resultado, mas entender o que está por trás dele.
 
-- Diferenciar **causas comuns** (problemas do sistema) e **causas especiais** (eventos pontuais)  
-- Utilizar ferramentas como o **Diagrama de Ishikawa** para investigar causas  
-- Evitar decisões baseadas apenas em metas numéricas sem contexto  
-- Focar na melhoria do processo, e não apenas no resultado  
-
+- Separar causas comuns (do sistema) e causas especiais (pontuais)  
+- Usar ferramentas como o Diagrama de Ishikawa  
+- Evitar decisões baseadas só em metas numéricas  
+- Focar na melhoria do processo  
 
 ### 🤖 Uso da IA na análise de indicadores
 
-O NotebookLM foi utilizado como apoio para organizar o conteúdo e explorar os conceitos de forma mais estruturada.
+O NotebookLM ajudou principalmente em:
 
-Durante o uso, foi possível perceber que a IA ajuda principalmente em:
+- resumir conteúdos  
+- organizar ideias  
+- conectar conceitos  
+- estruturar análises  
 
-- resumir conteúdos complexos  
-- conectar diferentes autores  
-- estruturar raciocínio  
-- sugerir caminhos de análise  
-
-Por outro lado, o uso exige senso crítico para validar as informações e adaptar as respostas ao contexto real.
-
+Mas também ficou claro que não dá pra confiar cegamente — é preciso validar e adaptar as respostas.
 
 ### 📚 Glossário
 
-- **KPI (Key Performance Indicator)**: indicador usado para medir desempenho  
-- **PDCA/PDSA**: ciclo de melhoria contínua (Planejar, Fazer, Verificar/Estudar, Agir)  
+- **KPI**: indicador de desempenho  
+- **PDCA/PDSA**: ciclo de melhoria contínua  
 - **Causa raiz**: origem principal de um problema  
-- **Causas comuns**: variações naturais do sistema  
-- **Causas especiais**: variações causadas por eventos específicos  
-
+- **Causas comuns**: variações do próprio sistema  
+- **Causas especiais**: eventos fora do padrão  
 
 ### 🧠 Prompts reutilizáveis
 
 - "Analise este indicador com base nos princípios de Deming"  
-- "Quais são as possíveis causas para esse resultado?"  
-- "Como aplicar o conceito de Ishikawa neste cenário?"  
-- "Sugira ações de melhoria com base na Trilogia de Juran"  
-- "Explique este indicador como um especialista em qualidade"
+- "Quais são as possíveis causas desse resultado?"  
+- "Como aplicar o conceito de Ishikawa neste caso?"  
+- "Sugira melhorias com base na Trilogia de Juran"  
+- "Explique esse indicador como um especialista em qualidade"  
 
-- ## 🚀 Considerações finais
+## 🚀 Considerações finais
 
-Este projeto foi desenvolvido como parte do bootcamp **"Bradesco - GenAI & Dados"**, promovido pela DIO.me, e teve como objetivo explorar o uso da Inteligência Artificial no processo de aprendizagem e análise de dados.
+Durante o projeto, consegui revisar conceitos importantes de qualidade e também ver, na prática, como a IA pode ajudar na organização do estudo e na análise de informações.
 
-o longo do projeto, consegui revisar conceitos importantes de gestão da qualidade e, ao mesmo tempo, entender melhor na prática como o NotebookLM pode ajudar a organizar informações e apoiar a análise de indicadores.
-
-No fim, ficou claro pra mim que juntar esses conceitos mais clássicos com o uso de IA faz muita diferença na forma de analisar dados e tomar decisões, deixando tudo mais estruturado e com mais sentido.
+No geral, usar IA junto com uma base teórica boa ajuda bastante a estruturar o raciocínio e tomar decisões com mais segurança.
